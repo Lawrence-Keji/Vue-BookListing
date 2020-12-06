@@ -7,7 +7,9 @@
     </div>
 </template>
 
-<script src="./BookItem">
+<script>
+import BookItem from './BookItem';
+
 export default {
     name: BookList,
     data: {
