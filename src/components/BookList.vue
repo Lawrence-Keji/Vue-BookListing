@@ -22,7 +22,7 @@ export default {
     {title: 'American Gods', author: 'Neil Gaiman'},
     {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
     ],
-    components: {BookItem}
+    components: {BookForm}
     },
     methods: {
         appendBook(bookTitle, bookAuthor){
