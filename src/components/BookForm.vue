@@ -9,10 +9,13 @@
 <script>
 export default {
     name: 'BookForm',
-    
-    data: {
+    props: ['books'],
+    data() {
+        return{
         bookTitle: '',
+        
         bookAuthor: ''
+        }
     },
     methods: {
         bookSubmit(bookTitle, bookAuthor){
@@ -22,8 +25,8 @@ export default {
 }
 </script>
 
-<style scoped>
-li{
+<style>
+/* li{
     display: block;
-    margin: 0 10px;}
+    margin: 0 10px;} */
 </style>
