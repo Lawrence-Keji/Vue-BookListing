@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div>
+      <router-link :to="{name: 'landingPage'}">Home</router-link>
+      <router-link :to="{name: 'form'}">Form</router-link>
+    </div>
     <book-list></book-list>
+    <router-view></router-view>
   </div>
 </template>
 
